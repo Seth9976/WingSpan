@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.drive;
+
+import android.os.RemoteException;
+import com.google.android.gms.common.api.Api.AnyClient;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.Status;
+
+final class zzat extends zzav {
+    zzat(GoogleApiClient googleApiClient0, Status status0) {
+        super(googleApiClient0);
+        this.setResult(status0);
+    }
+
+    @Override  // com.google.android.gms.common.api.internal.BaseImplementation$ApiMethodImpl
+    protected final void doExecute(AnyClient api$AnyClient0) throws RemoteException {
+    }
+}
+

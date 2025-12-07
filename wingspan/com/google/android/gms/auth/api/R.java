@@ -1,0 +1,417 @@
+package com.google.android.gms.auth.api;
+
+public final class R {
+    public static final class anim {
+        public static final int fragment_fast_out_extra_slow_in = 0x7F010018;  // anim:fragment_fast_out_extra_slow_in
+
+    }
+
+    public static final class animator {
+        public static final int fragment_close_enter = 0x7F020000;  // animator:fragment_close_enter
+        public static final int fragment_close_exit = 0x7F020001;  // animator:fragment_close_exit
+        public static final int fragment_fade_enter = 0x7F020002;  // animator:fragment_fade_enter
+        public static final int fragment_fade_exit = 0x7F020003;  // animator:fragment_fade_exit
+        public static final int fragment_open_enter = 0x7F020004;  // animator:fragment_open_enter
+        public static final int fragment_open_exit = 0x7F020005;  // animator:fragment_open_exit
+
+    }
+
+    public static final class attr {
+        public static final int alpha = 0x7F030029;  // attr:alpha
+        public static final int buttonSize = 0x7F030043;  // attr:buttonSize
+        public static final int circleCrop = 0x7F030051;  // attr:circleCrop
+        public static final int colorScheme = 0x7F030060;  // attr:colorScheme
+        public static final int coordinatorLayoutStyle = 0x7F030070;  // attr:coordinatorLayoutStyle
+        public static final int elevation = 0x7F03008A;  // attr:elevation
+        public static final int font = 0x7F03008D;  // attr:font
+        public static final int fontProviderAuthority = 0x7F03008F;  // attr:fontProviderAuthority
+        public static final int fontProviderCerts = 0x7F030090;  // attr:fontProviderCerts
+        public static final int fontProviderFetchStrategy = 0x7F030091;  // attr:fontProviderFetchStrategy
+        public static final int fontProviderFetchTimeout = 0x7F030092;  // attr:fontProviderFetchTimeout
+        public static final int fontProviderPackage = 0x7F030093;  // attr:fontProviderPackage
+        public static final int fontProviderQuery = 0x7F030094;  // attr:fontProviderQuery
+        public static final int fontProviderSystemFontFamily = 0x7F030095;  // attr:fontProviderSystemFontFamily
+        public static final int fontStyle = 0x7F030096;  // attr:fontStyle
+        public static final int fontVariationSettings = 0x7F030097;  // attr:fontVariationSettings
+        public static final int fontWeight = 0x7F030098;  // attr:fontWeight
+        public static final int imageAspectRatio = 0x7F0300A3;  // attr:imageAspectRatio
+        public static final int imageAspectRatioAdjust = 0x7F0300A4;  // attr:imageAspectRatioAdjust
+        public static final int keylines = 0x7F0300AA;  // attr:keylines
+        public static final int lStar = 0x7F0300AB;  // attr:lStar
+        public static final int layout_anchor = 0x7F0300AE;  // attr:layout_anchor
+        public static final int layout_anchorGravity = 0x7F0300AF;  // attr:layout_anchorGravity
+        public static final int layout_behavior = 0x7F0300B0;  // attr:layout_behavior
+        public static final int layout_dodgeInsetEdges = 0x7F0300B1;  // attr:layout_dodgeInsetEdges
+        public static final int layout_insetEdge = 0x7F0300B2;  // attr:layout_insetEdge
+        public static final int layout_keyline = 0x7F0300B3;  // attr:layout_keyline
+        public static final int nestedScrollViewStyle = 0x7F0300CD;  // attr:nestedScrollViewStyle
+        public static final int queryPatterns = 0x7F0300DF;  // attr:queryPatterns
+        public static final int scopeUris = 0x7F0300E4;  // attr:scopeUris
+        public static final int shortcutMatchRequired = 0x7F0300EB;  // attr:shortcutMatchRequired
+        public static final int statusBarBackground = 0x7F0300F7;  // attr:statusBarBackground
+        public static final int ttcIndex = 0x7F03012B;  // attr:ttcIndex
+
+    }
+
+    public static final class color {
+        public static final int androidx_core_ripple_material_light = 0x7F05001E;  // color:androidx_core_ripple_material_light
+        public static final int androidx_core_secondary_text_default_material_light = 0x7F05001F;  // color:androidx_core_secondary_text_default_material_light
+        public static final int common_google_signin_btn_text_dark = 0x7F050034;  // color:common_google_signin_btn_text_dark
+        public static final int common_google_signin_btn_text_dark_default = 0x7F050035;  // color:common_google_signin_btn_text_dark_default
+        public static final int common_google_signin_btn_text_dark_disabled = 0x7F050036;  // color:common_google_signin_btn_text_dark_disabled
+        public static final int common_google_signin_btn_text_dark_focused = 0x7F050037;  // color:common_google_signin_btn_text_dark_focused
+        public static final int common_google_signin_btn_text_dark_pressed = 0x7F050038;  // color:common_google_signin_btn_text_dark_pressed
+        public static final int common_google_signin_btn_text_light = 0x7F050039;  // color:common_google_signin_btn_text_light
+        public static final int common_google_signin_btn_text_light_default = 0x7F05003A;  // color:common_google_signin_btn_text_light_default
+        public static final int common_google_signin_btn_text_light_disabled = 0x7F05003B;  // color:common_google_signin_btn_text_light_disabled
+        public static final int common_google_signin_btn_text_light_focused = 0x7F05003C;  // color:common_google_signin_btn_text_light_focused
+        public static final int common_google_signin_btn_text_light_pressed = 0x7F05003D;  // color:common_google_signin_btn_text_light_pressed
+        public static final int common_google_signin_btn_tint = 0x7F05003E;  // color:common_google_signin_btn_tint
+        public static final int notification_action_color_filter = 0x7F050056;  // color:notification_action_color_filter
+        public static final int notification_icon_bg_color = 0x7F050057;  // color:notification_icon_bg_color
+        public static final int notification_material_background_media_default_color = 0x7F050058;  // color:notification_material_background_media_default_color
+        public static final int primary_text_default_material_dark = 0x7F05005D;  // color:primary_text_default_material_dark
+        public static final int secondary_text_default_material_dark = 0x7F050063;  // color:secondary_text_default_material_dark
+
+    }
+
+    public static final class dimen {
+        public static final int compat_button_inset_horizontal_material = 0x7F060056;  // dimen:compat_button_inset_horizontal_material
+        public static final int compat_button_inset_vertical_material = 0x7F060057;  // dimen:compat_button_inset_vertical_material
+        public static final int compat_button_padding_horizontal_material = 0x7F060058;  // dimen:compat_button_padding_horizontal_material
+        public static final int compat_button_padding_vertical_material = 0x7F060059;  // dimen:compat_button_padding_vertical_material
+        public static final int compat_control_corner_material = 0x7F06005A;  // dimen:compat_control_corner_material
+        public static final int compat_notification_large_icon_max_height = 0x7F06005B;  // dimen:compat_notification_large_icon_max_height
+        public static final int compat_notification_large_icon_max_width = 0x7F06005C;  // dimen:compat_notification_large_icon_max_width
+        public static final int notification_action_icon_size = 0x7F060066;  // dimen:notification_action_icon_size
+        public static final int notification_action_text_size = 0x7F060067;  // dimen:notification_action_text_size
+        public static final int notification_big_circle_margin = 0x7F060068;  // dimen:notification_big_circle_margin
+        public static final int notification_content_margin_start = 0x7F060069;  // dimen:notification_content_margin_start
+        public static final int notification_large_icon_height = 0x7F06006A;  // dimen:notification_large_icon_height
+        public static final int notification_large_icon_width = 0x7F06006B;  // dimen:notification_large_icon_width
+        public static final int notification_main_column_padding_top = 0x7F06006C;  // dimen:notification_main_column_padding_top
+        public static final int notification_media_narrow_margin = 0x7F06006D;  // dimen:notification_media_narrow_margin
+        public static final int notification_right_icon_size = 0x7F06006E;  // dimen:notification_right_icon_size
+        public static final int notification_right_side_padding_top = 0x7F06006F;  // dimen:notification_right_side_padding_top
+        public static final int notification_small_icon_background_padding = 0x7F060070;  // dimen:notification_small_icon_background_padding
+        public static final int notification_small_icon_size_as_large = 0x7F060071;  // dimen:notification_small_icon_size_as_large
+        public static final int notification_subtext_size = 0x7F060072;  // dimen:notification_subtext_size
+        public static final int notification_top_pad = 0x7F060073;  // dimen:notification_top_pad
+        public static final int notification_top_pad_large_text = 0x7F060074;  // dimen:notification_top_pad_large_text
+
+    }
+
+    public static final class drawable {
+        public static final int common_full_open_on_phone = 0x7F070059;  // drawable:common_full_open_on_phone
+        public static final int common_google_signin_btn_icon_dark = 0x7F07005A;  // drawable:common_google_signin_btn_icon_dark
+        public static final int common_google_signin_btn_icon_dark_focused = 0x7F07005B;  // drawable:common_google_signin_btn_icon_dark_focused
+        public static final int common_google_signin_btn_icon_dark_normal = 0x7F07005C;  // drawable:common_google_signin_btn_icon_dark_normal
+        public static final int common_google_signin_btn_icon_dark_normal_background = 0x7F07005D;  // drawable:common_google_signin_btn_icon_dark_normal_background
+        public static final int common_google_signin_btn_icon_disabled = 0x7F07005E;  // drawable:common_google_signin_btn_icon_disabled
+        public static final int common_google_signin_btn_icon_light = 0x7F07005F;  // drawable:common_google_signin_btn_icon_light
+        public static final int common_google_signin_btn_icon_light_focused = 0x7F070060;  // drawable:common_google_signin_btn_icon_light_focused
+        public static final int common_google_signin_btn_icon_light_normal = 0x7F070061;  // drawable:common_google_signin_btn_icon_light_normal
+        public static final int common_google_signin_btn_icon_light_normal_background = 0x7F070062;  // drawable:common_google_signin_btn_icon_light_normal_background
+        public static final int common_google_signin_btn_text_dark = 0x7F070063;  // drawable:common_google_signin_btn_text_dark
+        public static final int common_google_signin_btn_text_dark_focused = 0x7F070064;  // drawable:common_google_signin_btn_text_dark_focused
+        public static final int common_google_signin_btn_text_dark_normal = 0x7F070065;  // drawable:common_google_signin_btn_text_dark_normal
+        public static final int common_google_signin_btn_text_dark_normal_background = 0x7F070066;  // drawable:common_google_signin_btn_text_dark_normal_background
+        public static final int common_google_signin_btn_text_disabled = 0x7F070067;  // drawable:common_google_signin_btn_text_disabled
+        public static final int common_google_signin_btn_text_light = 0x7F070068;  // drawable:common_google_signin_btn_text_light
+        public static final int common_google_signin_btn_text_light_focused = 0x7F070069;  // drawable:common_google_signin_btn_text_light_focused
+        public static final int common_google_signin_btn_text_light_normal = 0x7F07006A;  // drawable:common_google_signin_btn_text_light_normal
+        public static final int common_google_signin_btn_text_light_normal_background = 0x7F07006B;  // drawable:common_google_signin_btn_text_light_normal_background
+        public static final int googleg_disabled_color_18 = 0x7F07006C;  // drawable:googleg_disabled_color_18
+        public static final int googleg_standard_color_18 = 0x7F07006D;  // drawable:googleg_standard_color_18
+        public static final int notification_action_background = 0x7F070072;  // drawable:notification_action_background
+        public static final int notification_bg = 0x7F070073;  // drawable:notification_bg
+        public static final int notification_bg_low = 0x7F070074;  // drawable:notification_bg_low
+        public static final int notification_bg_low_normal = 0x7F070075;  // drawable:notification_bg_low_normal
+        public static final int notification_bg_low_pressed = 0x7F070076;  // drawable:notification_bg_low_pressed
+        public static final int notification_bg_normal = 0x7F070077;  // drawable:notification_bg_normal
+        public static final int notification_bg_normal_pressed = 0x7F070078;  // drawable:notification_bg_normal_pressed
+        public static final int notification_icon_background = 0x7F070079;  // drawable:notification_icon_background
+        public static final int notification_template_icon_bg = 0x7F07007A;  // drawable:notification_template_icon_bg
+        public static final int notification_template_icon_low_bg = 0x7F07007B;  // drawable:notification_template_icon_low_bg
+        public static final int notification_tile_bg = 0x7F07007C;  // drawable:notification_tile_bg
+        public static final int notify_panel_notification_icon_bg = 0x7F07007D;  // drawable:notify_panel_notification_icon_bg
+
+    }
+
+    public static final class id {
+        public static final int accessibility_action_clickable_span = 0x7F080006;  // id:accessibility_action_clickable_span
+        public static final int accessibility_custom_action_0 = 0x7F080007;  // id:accessibility_custom_action_0
+        public static final int accessibility_custom_action_1 = 0x7F080008;  // id:accessibility_custom_action_1
+        public static final int accessibility_custom_action_10 = 0x7F080009;  // id:accessibility_custom_action_10
+        public static final int accessibility_custom_action_11 = 0x7F08000A;  // id:accessibility_custom_action_11
+        public static final int accessibility_custom_action_12 = 0x7F08000B;  // id:accessibility_custom_action_12
+        public static final int accessibility_custom_action_13 = 0x7F08000C;  // id:accessibility_custom_action_13
+        public static final int accessibility_custom_action_14 = 0x7F08000D;  // id:accessibility_custom_action_14
+        public static final int accessibility_custom_action_15 = 0x7F08000E;  // id:accessibility_custom_action_15
+        public static final int accessibility_custom_action_16 = 0x7F08000F;  // id:accessibility_custom_action_16
+        public static final int accessibility_custom_action_17 = 0x7F080010;  // id:accessibility_custom_action_17
+        public static final int accessibility_custom_action_18 = 0x7F080011;  // id:accessibility_custom_action_18
+        public static final int accessibility_custom_action_19 = 0x7F080012;  // id:accessibility_custom_action_19
+        public static final int accessibility_custom_action_2 = 0x7F080013;  // id:accessibility_custom_action_2
+        public static final int accessibility_custom_action_20 = 0x7F080014;  // id:accessibility_custom_action_20
+        public static final int accessibility_custom_action_21 = 0x7F080015;  // id:accessibility_custom_action_21
+        public static final int accessibility_custom_action_22 = 0x7F080016;  // id:accessibility_custom_action_22
+        public static final int accessibility_custom_action_23 = 0x7F080017;  // id:accessibility_custom_action_23
+        public static final int accessibility_custom_action_24 = 0x7F080018;  // id:accessibility_custom_action_24
+        public static final int accessibility_custom_action_25 = 0x7F080019;  // id:accessibility_custom_action_25
+        public static final int accessibility_custom_action_26 = 0x7F08001A;  // id:accessibility_custom_action_26
+        public static final int accessibility_custom_action_27 = 0x7F08001B;  // id:accessibility_custom_action_27
+        public static final int accessibility_custom_action_28 = 0x7F08001C;  // id:accessibility_custom_action_28
+        public static final int accessibility_custom_action_29 = 0x7F08001D;  // id:accessibility_custom_action_29
+        public static final int accessibility_custom_action_3 = 0x7F08001E;  // id:accessibility_custom_action_3
+        public static final int accessibility_custom_action_30 = 0x7F08001F;  // id:accessibility_custom_action_30
+        public static final int accessibility_custom_action_31 = 0x7F080020;  // id:accessibility_custom_action_31
+        public static final int accessibility_custom_action_4 = 0x7F080021;  // id:accessibility_custom_action_4
+        public static final int accessibility_custom_action_5 = 0x7F080022;  // id:accessibility_custom_action_5
+        public static final int accessibility_custom_action_6 = 0x7F080023;  // id:accessibility_custom_action_6
+        public static final int accessibility_custom_action_7 = 0x7F080024;  // id:accessibility_custom_action_7
+        public static final int accessibility_custom_action_8 = 0x7F080025;  // id:accessibility_custom_action_8
+        public static final int accessibility_custom_action_9 = 0x7F080026;  // id:accessibility_custom_action_9
+        public static final int action0 = 0x7F080027;  // id:action0
+        public static final int action_container = 0x7F08002F;  // id:action_container
+        public static final int action_divider = 0x7F080031;  // id:action_divider
+        public static final int action_image = 0x7F080032;  // id:action_image
+        public static final int action_text = 0x7F080038;  // id:action_text
+        public static final int actions = 0x7F080039;  // id:actions
+        public static final int adjust_height = 0x7F08003C;  // id:adjust_height
+        public static final int adjust_width = 0x7F08003D;  // id:adjust_width
+        public static final int all = 0x7F08003F;  // id:all
+        public static final int async = 0x7F080043;  // id:async
+        public static final int auto = 0x7F080044;  // id:auto
+        public static final int blocking = 0x7F080046;  // id:blocking
+        public static final int bottom = 0x7F080047;  // id:bottom
+        public static final int cancel_action = 0x7F080050;  // id:cancel_action
+        public static final int center = 0x7F080051;  // id:center
+        public static final int center_horizontal = 0x7F080052;  // id:center_horizontal
+        public static final int center_vertical = 0x7F080053;  // id:center_vertical
+        public static final int chronometer = 0x7F080056;  // id:chronometer
+        public static final int clip_horizontal = 0x7F080057;  // id:clip_horizontal
+        public static final int clip_vertical = 0x7F080058;  // id:clip_vertical
+        public static final int dark = 0x7F08005E;  // id:dark
+        public static final int dialog_button = 0x7F080062;  // id:dialog_button
+        public static final int end = 0x7F080066;  // id:end
+        public static final int end_padder = 0x7F080067;  // id:end_padder
+        public static final int fill = 0x7F08006A;  // id:fill
+        public static final int fill_horizontal = 0x7F08006B;  // id:fill_horizontal
+        public static final int fill_vertical = 0x7F08006C;  // id:fill_vertical
+        public static final int forever = 0x7F08006D;  // id:forever
+        public static final int fragment_container_view_tag = 0x7F08006E;  // id:fragment_container_view_tag
+        public static final int icon = 0x7F080072;  // id:icon
+        public static final int icon_group = 0x7F080073;  // id:icon_group
+        public static final int icon_only = 0x7F080074;  // id:icon_only
+        public static final int info = 0x7F080077;  // id:info
+        public static final int italic = 0x7F080078;  // id:italic
+        public static final int left = 0x7F080079;  // id:left
+        public static final int light = 0x7F08007A;  // id:light
+        public static final int line1 = 0x7F08007B;  // id:line1
+        public static final int line3 = 0x7F08007C;  // id:line3
+        public static final int media_actions = 0x7F08007F;  // id:media_actions
+        public static final int none = 0x7F080084;  // id:none
+        public static final int normal = 0x7F080085;  // id:normal
+        public static final int notification_background = 0x7F080087;  // id:notification_background
+        public static final int notification_main_column = 0x7F080088;  // id:notification_main_column
+        public static final int notification_main_column_container = 0x7F080089;  // id:notification_main_column_container
+        public static final int right = 0x7F08009D;  // id:right
+        public static final int right_icon = 0x7F08009E;  // id:right_icon
+        public static final int right_side = 0x7F08009F;  // id:right_side
+        public static final int special_effects_controller_view_tag = 0x7F0800B4;  // id:special_effects_controller_view_tag
+        public static final int standard = 0x7F0800BA;  // id:standard
+        public static final int start = 0x7F0800BB;  // id:start
+        public static final int status_bar_latest_event_content = 0x7F0800BD;  // id:status_bar_latest_event_content
+        public static final int tag_accessibility_actions = 0x7F0800C1;  // id:tag_accessibility_actions
+        public static final int tag_accessibility_clickable_spans = 0x7F0800C2;  // id:tag_accessibility_clickable_spans
+        public static final int tag_accessibility_heading = 0x7F0800C3;  // id:tag_accessibility_heading
+        public static final int tag_accessibility_pane_title = 0x7F0800C4;  // id:tag_accessibility_pane_title
+        public static final int tag_on_apply_window_listener = 0x7F0800C5;  // id:tag_on_apply_window_listener
+        public static final int tag_on_receive_content_listener = 0x7F0800C6;  // id:tag_on_receive_content_listener
+        public static final int tag_on_receive_content_mime_types = 0x7F0800C7;  // id:tag_on_receive_content_mime_types
+        public static final int tag_screen_reader_focusable = 0x7F0800C8;  // id:tag_screen_reader_focusable
+        public static final int tag_state_description = 0x7F0800C9;  // id:tag_state_description
+        public static final int tag_transition_group = 0x7F0800CA;  // id:tag_transition_group
+        public static final int tag_unhandled_key_event_manager = 0x7F0800CB;  // id:tag_unhandled_key_event_manager
+        public static final int tag_unhandled_key_listeners = 0x7F0800CC;  // id:tag_unhandled_key_listeners
+        public static final int tag_window_insets_animation_callback = 0x7F0800CD;  // id:tag_window_insets_animation_callback
+        public static final int text = 0x7F0800CE;  // id:text
+        public static final int text2 = 0x7F0800CF;  // id:text2
+        public static final int time = 0x7F0800D4;  // id:time
+        public static final int title = 0x7F0800D6;  // id:title
+        public static final int top = 0x7F0800D9;  // id:top
+        public static final int view_tree_lifecycle_owner = 0x7F0800E0;  // id:view_tree_lifecycle_owner
+        public static final int view_tree_on_back_pressed_dispatcher_owner = 0x7F0800E1;  // id:view_tree_on_back_pressed_dispatcher_owner
+        public static final int view_tree_saved_state_registry_owner = 0x7F0800E2;  // id:view_tree_saved_state_registry_owner
+        public static final int view_tree_view_model_store_owner = 0x7F0800E3;  // id:view_tree_view_model_store_owner
+        public static final int visible_removing_fragment_view_tag = 0x7F0800E4;  // id:visible_removing_fragment_view_tag
+        public static final int wide = 0x7F0800E5;  // id:wide
+
+    }
+
+    public static final class integer {
+        public static final int cancel_button_image_alpha = 0x7F090002;  // integer:cancel_button_image_alpha
+        public static final int google_play_services_version = 0x7F090004;  // integer:google_play_services_version
+        public static final int status_bar_notification_info_maxnum = 0x7F090005;  // integer:status_bar_notification_info_maxnum
+
+    }
+
+    public static final class layout {
+        public static final int custom_dialog = 0x7F0B001E;  // layout:custom_dialog
+        public static final int notification_action = 0x7F0B0020;  // layout:notification_action
+        public static final int notification_action_tombstone = 0x7F0B0021;  // layout:notification_action_tombstone
+        public static final int notification_media_action = 0x7F0B0022;  // layout:notification_media_action
+        public static final int notification_media_cancel_action = 0x7F0B0023;  // layout:notification_media_cancel_action
+        public static final int notification_template_big_media = 0x7F0B0024;  // layout:notification_template_big_media
+        public static final int notification_template_big_media_custom = 0x7F0B0025;  // layout:notification_template_big_media_custom
+        public static final int notification_template_big_media_narrow = 0x7F0B0026;  // layout:notification_template_big_media_narrow
+        public static final int notification_template_big_media_narrow_custom = 0x7F0B0027;  // layout:notification_template_big_media_narrow_custom
+        public static final int notification_template_custom_big = 0x7F0B0028;  // layout:notification_template_custom_big
+        public static final int notification_template_icon_group = 0x7F0B0029;  // layout:notification_template_icon_group
+        public static final int notification_template_lines_media = 0x7F0B002A;  // layout:notification_template_lines_media
+        public static final int notification_template_media = 0x7F0B002B;  // layout:notification_template_media
+        public static final int notification_template_media_custom = 0x7F0B002C;  // layout:notification_template_media_custom
+        public static final int notification_template_part_chronometer = 0x7F0B002D;  // layout:notification_template_part_chronometer
+        public static final int notification_template_part_time = 0x7F0B002E;  // layout:notification_template_part_time
+
+    }
+
+    public static final class string {
+        public static final int common_google_play_services_enable_button = 0x7F0E0044;  // string:common_google_play_services_enable_button "Enable"
+        public static final int common_google_play_services_enable_text = 0x7F0E0045;  // string:common_google_play_services_enable_text "%1$s won\'t work unless you enable 
+                                                                                       // Google Play services."
+        public static final int common_google_play_services_enable_title = 0x7F0E0046;  // string:common_google_play_services_enable_title "Enable Google Play services"
+        public static final int common_google_play_services_install_button = 0x7F0E0047;  // string:common_google_play_services_install_button "Install"
+        public static final int common_google_play_services_install_text = 0x7F0E0048;  // string:common_google_play_services_install_text "%1$s won\'t run without Google 
+                                                                                        // Play services, which are missing from your device."
+        public static final int common_google_play_services_install_title = 0x7F0E0049;  // string:common_google_play_services_install_title "Get Google Play services"
+        public static final int common_google_play_services_notification_channel_name = 0x7F0E004A;  // string:common_google_play_services_notification_channel_name "Google Play services 
+                                                                                                     // availability"
+        public static final int common_google_play_services_notification_ticker = 0x7F0E004B;  // string:common_google_play_services_notification_ticker "Google Play services error"
+        public static final int common_google_play_services_unknown_issue = 0x7F0E004C;  // string:common_google_play_services_unknown_issue "%1$s is having trouble with Google 
+                                                                                         // Play services. Please try again."
+        public static final int common_google_play_services_unsupported_text = 0x7F0E004D;  // string:common_google_play_services_unsupported_text "%1$s won\'t run without Google 
+                                                                                            // Play services, which are not supported by your device."
+        public static final int common_google_play_services_update_button = 0x7F0E004E;  // string:common_google_play_services_update_button "Update"
+        public static final int common_google_play_services_update_text = 0x7F0E004F;  // string:common_google_play_services_update_text "%1$s won\'t run unless you update 
+                                                                                       // Google Play services."
+        public static final int common_google_play_services_update_title = 0x7F0E0050;  // string:common_google_play_services_update_title "Update Google Play services"
+        public static final int common_google_play_services_updating_text = 0x7F0E0051;  // string:common_google_play_services_updating_text "%1$s won\'t run without Google 
+                                                                                         // Play services, which are currently updating."
+        public static final int common_google_play_services_wear_update_text = 0x7F0E0052;  // string:common_google_play_services_wear_update_text "New version of Google Play 
+                                                                                            // services needed. It will update itself shortly."
+        public static final int common_open_on_phone = 0x7F0E0053;  // string:common_open_on_phone "Open on phone"
+        public static final int common_signin_button_text = 0x7F0E0054;  // string:common_signin_button_text "Sign in"
+        public static final int common_signin_button_text_long = 0x7F0E0055;  // string:common_signin_button_text_long "Sign in with Google"
+        public static final int status_bar_notification_info_overflow = 0x7F0E007C;  // string:status_bar_notification_info_overflow "999+"
+
+    }
+
+    public static final class style {
+        public static final int TextAppearance_Compat_Notification = 0x7F0F00F6;  // style:TextAppearance.Compat.Notification
+        public static final int TextAppearance_Compat_Notification_Info = 0x7F0F00F7;  // style:TextAppearance.Compat.Notification.Info
+        public static final int TextAppearance_Compat_Notification_Info_Media = 0x7F0F00F8;  // style:TextAppearance.Compat.Notification.Info.Media
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7F0F00F9;  // style:TextAppearance.Compat.Notification.Line2
+        public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7F0F00FA;  // style:TextAppearance.Compat.Notification.Line2.Media
+        public static final int TextAppearance_Compat_Notification_Media = 0x7F0F00FB;  // style:TextAppearance.Compat.Notification.Media
+        public static final int TextAppearance_Compat_Notification_Time = 0x7F0F00FC;  // style:TextAppearance.Compat.Notification.Time
+        public static final int TextAppearance_Compat_Notification_Time_Media = 0x7F0F00FD;  // style:TextAppearance.Compat.Notification.Time.Media
+        public static final int TextAppearance_Compat_Notification_Title = 0x7F0F00FE;  // style:TextAppearance.Compat.Notification.Title
+        public static final int TextAppearance_Compat_Notification_Title_Media = 0x7F0F00FF;  // style:TextAppearance.Compat.Notification.Title.Media
+        public static final int Widget_Compat_NotificationActionContainer = 0x7F0F0170;  // style:Widget.Compat.NotificationActionContainer
+        public static final int Widget_Compat_NotificationActionText = 0x7F0F0171;  // style:Widget.Compat.NotificationActionText
+        public static final int Widget_Support_CoordinatorLayout = 0x7F0F0172;  // style:Widget.Support.CoordinatorLayout
+
+    }
+
+    public static final class styleable {
+        public static final int[] Capability = null;
+        public static final int Capability_queryPatterns = 0;
+        public static final int Capability_shortcutMatchRequired = 1;
+        public static final int[] ColorStateListItem = null;
+        public static final int ColorStateListItem_alpha = 3;
+        public static final int ColorStateListItem_android_alpha = 1;
+        public static final int ColorStateListItem_android_color = 0;
+        public static final int ColorStateListItem_android_lStar = 2;
+        public static final int ColorStateListItem_lStar = 4;
+        public static final int[] CoordinatorLayout = null;
+        public static final int[] CoordinatorLayout_Layout = null;
+        public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
+        public static final int CoordinatorLayout_Layout_layout_anchor = 1;
+        public static final int CoordinatorLayout_Layout_layout_anchorGravity = 2;
+        public static final int CoordinatorLayout_Layout_layout_behavior = 3;
+        public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 4;
+        public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
+        public static final int CoordinatorLayout_Layout_layout_keyline = 6;
+        public static final int CoordinatorLayout_keylines = 0;
+        public static final int CoordinatorLayout_statusBarBackground = 1;
+        public static final int[] FontFamily = null;
+        public static final int[] FontFamilyFont = null;
+        public static final int FontFamilyFont_android_font = 0;
+        public static final int FontFamilyFont_android_fontStyle = 2;
+        public static final int FontFamilyFont_android_fontVariationSettings = 4;
+        public static final int FontFamilyFont_android_fontWeight = 1;
+        public static final int FontFamilyFont_android_ttcIndex = 3;
+        public static final int FontFamilyFont_font = 5;
+        public static final int FontFamilyFont_fontStyle = 6;
+        public static final int FontFamilyFont_fontVariationSettings = 7;
+        public static final int FontFamilyFont_fontWeight = 8;
+        public static final int FontFamilyFont_ttcIndex = 9;
+        public static final int FontFamily_fontProviderAuthority = 0;
+        public static final int FontFamily_fontProviderCerts = 1;
+        public static final int FontFamily_fontProviderFetchStrategy = 2;
+        public static final int FontFamily_fontProviderFetchTimeout = 3;
+        public static final int FontFamily_fontProviderPackage = 4;
+        public static final int FontFamily_fontProviderQuery = 5;
+        public static final int FontFamily_fontProviderSystemFontFamily = 6;
+        public static final int[] Fragment = null;
+        public static final int[] FragmentContainerView = null;
+        public static final int FragmentContainerView_android_name = 0;
+        public static final int FragmentContainerView_android_tag = 1;
+        public static final int Fragment_android_id = 1;
+        public static final int Fragment_android_name = 0;
+        public static final int Fragment_android_tag = 2;
+        public static final int[] GradientColor = null;
+        public static final int[] GradientColorItem = null;
+        public static final int GradientColorItem_android_color = 0;
+        public static final int GradientColorItem_android_offset = 1;
+        public static final int GradientColor_android_centerColor = 7;
+        public static final int GradientColor_android_centerX = 3;
+        public static final int GradientColor_android_centerY = 4;
+        public static final int GradientColor_android_endColor = 1;
+        public static final int GradientColor_android_endX = 10;
+        public static final int GradientColor_android_endY = 11;
+        public static final int GradientColor_android_gradientRadius = 5;
+        public static final int GradientColor_android_startColor = 0;
+        public static final int GradientColor_android_startX = 8;
+        public static final int GradientColor_android_startY = 9;
+        public static final int GradientColor_android_tileMode = 6;
+        public static final int GradientColor_android_type = 2;
+        public static final int[] LoadingImageView = null;
+        public static final int LoadingImageView_circleCrop = 0;
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        public static final int LoadingImageView_imageAspectRatioAdjust = 2;
+        public static final int[] SignInButton = null;
+        public static final int SignInButton_buttonSize = 0;
+        public static final int SignInButton_colorScheme = 1;
+        public static final int SignInButton_scopeUris = 2;
+
+        static {
+            styleable.Capability = new int[]{0x7F0300DF, 0x7F0300EB};  // attr:queryPatterns
+            styleable.ColorStateListItem = new int[]{0x10101A5, 0x101031F, 0x1010647, 0x7F030029, 0x7F0300AB};  // attr:alpha
+            styleable.CoordinatorLayout = new int[]{0x7F0300AA, 0x7F0300F7};  // attr:keylines
+            styleable.CoordinatorLayout_Layout = new int[]{0x10100B3, 0x7F0300AE, 0x7F0300AF, 0x7F0300B0, 0x7F0300B1, 0x7F0300B2, 0x7F0300B3};  // attr:layout_anchor
+            styleable.FontFamily = new int[]{0x7F03008F, 0x7F030090, 0x7F030091, 0x7F030092, 0x7F030093, 0x7F030094, 0x7F030095};  // attr:fontProviderAuthority
+            styleable.FontFamilyFont = new int[]{0x1010532, 0x1010533, 0x101053F, 0x101056F, 0x1010570, 0x7F03008D, 0x7F030096, 0x7F030097, 0x7F030098, 0x7F03012B};  // attr:font
+            styleable.Fragment = new int[]{0x1010003, 0x10100D0, 0x10100D1};
+            styleable.FragmentContainerView = new int[]{0x1010003, 0x10100D1};
+            styleable.GradientColor = new int[]{0x101019D, 0x101019E, 0x10101A1, 0x10101A2, 0x10101A3, 0x10101A4, 0x1010201, 0x101020B, 0x1010510, 0x1010511, 0x1010512, 0x1010513};
+            styleable.GradientColorItem = new int[]{0x10101A5, 0x1010514};
+            styleable.LoadingImageView = new int[]{0x7F030051, 0x7F0300A3, 0x7F0300A4};  // attr:circleCrop
+            styleable.SignInButton = new int[]{0x7F030043, 0x7F030060, 0x7F0300E4};  // attr:buttonSize
+        }
+    }
+
+}
+

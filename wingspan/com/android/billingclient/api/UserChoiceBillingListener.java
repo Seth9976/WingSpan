@@ -1,0 +1,6 @@
+package com.android.billingclient.api;
+
+public interface UserChoiceBillingListener {
+    void userSelectedAlternativeBilling(UserChoiceDetails arg1);
+}
+
